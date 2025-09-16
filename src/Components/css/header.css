@@ -1,0 +1,29 @@
+.header{
+  width: 100%;
+  height: 71px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0px 0 5px 0px black;
+}
+
+.header .header_a{
+  font-weight: 600;
+  color: #343a40;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header .header_items{
+  width: 40%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  font-weight: 600;
+  color: #343a40;
+  cursor: pointer;
+}

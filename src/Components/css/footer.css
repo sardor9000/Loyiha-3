@@ -1,0 +1,21 @@
+footer img{
+  width: 24px;
+  height: 24px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+padding: 50px 0px;}
+
+footer li{
+  list-style-type: none;
+  color: rgb(108, 117, 125)
+}
+
+footer li:hover{
+  cursor: pointer;
+}
